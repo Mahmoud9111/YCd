@@ -86,7 +86,7 @@
         },
         "optional": true
       },
-      "description": {
+      "discussion": {
         "type": "objectAttribute",
         "value": {
           "type": "string"

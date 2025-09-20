@@ -28,7 +28,7 @@ export type Startup = {
     [internalGroqTypeReferenceTo]?: "author";
   };
   views?: number;
-  description?: string;
+  discussion?: string;
   category?: string;
   image?: string;
   pitch?: string;

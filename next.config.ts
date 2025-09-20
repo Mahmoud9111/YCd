@@ -9,7 +9,10 @@ const nextConfig: NextConfig = {
       hostname: '*'
     }
   ]
- }
+ },
+  devIndicators: {
+    position: "bottom-right"
+  },
 };
 
 export default nextConfig;
