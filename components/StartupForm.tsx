@@ -55,7 +55,7 @@ const StartupForm = () => {
 
           {errors.pitch && <p className='startup-form_error'>{errors.pitch}</p>}
         </div>
-        <Button type='submit' className='startup-form_btn bg-pink-700' disabled={isPending}>
+        <Button type='submit' className='startup-form_btn bg-pink-600' disabled={isPending}>
             {isPending ? 'Submitting...' : 'Submit'}
                     <Send className="size-6 ml-2" />
 
