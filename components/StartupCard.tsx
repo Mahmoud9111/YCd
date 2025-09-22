@@ -30,7 +30,7 @@ const StartupCard = ({post}: {post: StartupTypeCard}) => {
         </div>
         <Link href={`/startup/${post._id}`}>
             <p className="startup-card_desc">{post.discussion}</p>
-            <img src="https://placehold.co/600x400" alt="palceholder" className='startup-card_img' />
+            <img src={post.image} alt="palceholder" className='startup-card_img' />
         </Link>
         <div className='flex mt-5 gap-3'>
             <Link href={`/?query=${post.category?.toLowerCase()}`}> <p className='text-xl'>{post.category}</p> </Link>
